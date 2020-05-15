@@ -1,7 +1,34 @@
 
 <!-- saved dump from url=http://www.davidc.net/sites/default/subnets/subnets.html -->
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>Visual Subnet Calculator</title>
+<!doctype html>
+<html><head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <style>
+	body{
+		margin:1em auto;
+		max-width:40em;
+		padding:0 .62em;
+		font:1.2em/1.62 sans-serif;
+	}
+	h1,h2,h3 {
+		line-height:1.2;
+	}
+	@media print{
+		body{
+			max-width:none
+		}
+	}
+</style>
+    <title>Hubert Witkowski</title>
+
 <script language="javascript" type="text/javascript">
 
 var curNetwork = 0;
@@ -500,6 +527,10 @@ P		{
 </style>
 </head>
 <body>
+  <header>
+    <h1>Hubert Witkowski</h1>
+    <p> <a href="index.html">Home</a> | <a href="about.html">About</a> | <a href="dg.html">Billing</a>  | <a href="subnet.html">VSC</a> | <a href="pgp.html">PGP Key</a> </p>
+</header> 
 
 <table width="100%">
 <tbody><tr valign="top">
@@ -524,16 +555,6 @@ P		{
 </td>
 </tr>
 </tbody></table>
-
-<!-- <p>Show columns: 
-<input type="checkbox" id="cb_subnet" checked="" onclick="toggleColumn(this)"><label for="cb_subnet">Subnet address</label>
-<input type="checkbox" id="cb_netmask" onclick="toggleColumn(this)"><label for="cb_netmask">Netmask</label>
-<input type="checkbox" id="cb_range" checked="" onclick="toggleColumn(this)"><label for="cb_range">Range of addresses</label>
-<input type="checkbox" id="cb_useable" checked="" onclick="toggleColumn(this)"><label for="cb_useable">Useable IPs</label>
-<input type="checkbox" id="cb_hosts" checked="" onclick="toggleColumn(this)"><label for="cb_hosts">Hosts</label>
-<input type="checkbox" id="cb_divide" checked="" onclick="toggleColumn(this)"><label for="cb_divide">Divide</label>
-<input type="checkbox" id="cb_join" checked="" onclick="toggleColumn(this)"><label for="cb_join">Join</label>
-</p> -->
 </form>
 
 <p>Click below to split and join subnets.<br>
