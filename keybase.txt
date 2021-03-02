@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/huczas
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://hwit.pl
+  * I am huczas (https://keybase.io/huczas) on keybase.
+  * I have a public key ASBCby_ATVmxh9AeuyBSP0R2eyjCfbH9kdj29lKorh9BGQo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120426f2fc04d59b187d01ebb20523f44767b28c27db1fd91d8f6f652a8ae1f41190a",
+      "host": "keybase.io",
+      "kid": "0120426f2fc04d59b187d01ebb20523f44767b28c27db1fd91d8f6f652a8ae1f41190a",
+      "uid": "8fe8a245d78e2ddcec96ba4e2ea87200",
+      "username": "huczas"
+    },
+    "merkle_root": {
+      "ctime": 1614678411,
+      "hash": "15e457cb8d404d6fe49fb5169176a2e284bf4b666d4dd498444e1145bac6aced663c1075a994a5add29f8ad232a46cb344a2d7cfdfbce86c6c90f2055ed7b8e7",
+      "hash_meta": "69abe07844a3c2b7a816c25527aac3ade01d2f2d4bcc7ce0d2d76af418759042",
+      "seqno": 19266838
+    },
+    "service": {
+      "entropy": "/fiK51bAyEo00wOIqCJoefnL",
+      "hostname": "hwit.pl",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "5.6.2"
+  },
+  "ctime": 1614678442,
+  "expire_in": 504576000,
+  "prev": "0abf5b7f1d8c77529d63a1606ec8b2c533e1fb50ef95209214467a19c9f679da",
+  "seqno": 67,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgQm8vwE1ZsYfQHrsgUj9Ednsown2x/ZHY9vZSqK4fQRkKp3BheWxvYWTESpcCQ8QgCr9bfx2Md1KdY6FgbsiyxTPh+1DvlSCSFEZ6Gcn2edrEIPslLfnTjzSuz/JhGFKiiTbFlqXlJWgKvCBm+QTTSO1VAgHCo3NpZ8RAh9En/1o5eJyHZDZg9mbZZs/jsawVgXducn5yH2m7ZvrnoTjMvdIyqN26rneQjeN5ol3j5UvmJtNdRcO9xr2LAKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIJYZRBpQcroqv6VWBu/bSgIRysqnMnXIKcfyWTTc/Qc2o3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/huczas
+
+==================================================================
