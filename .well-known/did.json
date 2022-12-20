@@ -1,0 +1,48 @@
+{
+  "id": "did:web:hwit.pl",
+  "@context": [
+    "https://www.w3.org/ns/did/v1",
+    {
+      "@base": "did:web:hwit.pl"
+    }
+  ],
+  "service": [
+    {
+      "id": "#linkeddomains",
+      "type": "LinkedDomains",
+      "serviceEndpoint": {
+        "origins": [
+          "https://hwit.pl/"
+        ]
+      }
+    },
+    {
+      "id": "#hub",
+      "type": "IdentityHub",
+      "serviceEndpoint": {
+        "instances": [
+          "https://hub.did.msidentity.com/v1.0/fb5ea522-851f-400f-ba45-8ff5226c7338"
+        ]
+      }
+    }
+  ],
+  "verificationMethod": [
+    {
+      "id": "#9cf73c554b204bf2b982b5ec51ee296cvcSigningKey-5ea74",
+      "controller": "did:web:hwit.pl",
+      "type": "EcdsaSecp256k1VerificationKey2019",
+      "publicKeyJwk": {
+        "crv": "secp256k1",
+        "kty": "EC",
+        "x": "MSGUuUgg1azKUGH-bo0XL4Xlj5y7VdXe-mRQzGlzfzQ",
+        "y": "Cm0mkazf4DS3-Z0rhRaAFgOnxXCbSnRyIV_OmkE50uw"
+      }
+    }
+  ],
+  "authentication": [
+    "#9cf73c554b204bf2b982b5ec51ee296cvcSigningKey-5ea74"
+  ],
+  "assertionMethod": [
+    "#9cf73c554b204bf2b982b5ec51ee296cvcSigningKey-5ea74"
+  ]
+}
